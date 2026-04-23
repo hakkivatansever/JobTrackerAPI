@@ -29,6 +29,6 @@ public class JobsController : ControllerBase
     [HttpGet]
     public IActionResult GetAllJobs()
     {
-        return Ok("İlk endpoint çalışıyor! 🎉");
+        return Ok(_jobs);
     }
 }
