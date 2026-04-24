@@ -9,6 +9,10 @@ public class Job
     public DateTime AppliedDate {get;set;} = DateTime.UtcNow;
     public string? Notes{get;set;}
     
+    // Which users belongs to
+
+    public int UserId {get;set;}
+    public User? User {get;set;}
 
 }
 
